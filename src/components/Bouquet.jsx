@@ -156,27 +156,27 @@ export default function Bouquet() {
       {/* Buttons */}
       <button
         onClick={addRose}
-        style={{ position: 'absolute', top: 10, left: 40, zIndex: 3 }}
+        style={{ position: 'absolute', top: 0, left: 160, zIndex: 3 }}
       >
         Add Rose ❤️
       </button>
       <button
         onClick={addDaisy}
-        style={{ position: 'absolute', top: 10, left: 160, zIndex: 3 }}
+        style={{ position: 'absolute', top: 0, left: 300, zIndex: 3 }}
       >
         Add Daisy 🤍
       </button>
       <button
         onClick={addTulip}
-        style={{ position: 'absolute', top: 10, left: 280, zIndex: 3 }}
+        style={{ position: 'absolute', top: 45, left: 300, zIndex: 3 }}
       >
         Add Tulip 🩷
       </button>
       <button
         onClick={addBlueFlower}
-        style={{ position: 'absolute', top: 10, left: 400, zIndex: 3 }}
+        style={{ position: 'absolute', top: 45, left: 160, zIndex: 3 }}
       >
-        Add Blue Flower 💙
+        Add Blue 💙
       </button>
     </div>
   );
