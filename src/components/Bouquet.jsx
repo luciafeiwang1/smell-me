@@ -91,7 +91,7 @@ export default function Bouquet() {
     const X_OFFSET = 0.5 * FLOWER_WIDTH;
     const VASE_X = 200 * SCALE;
     const FLOWER_X = VASE_X - X_OFFSET;
-    const FLOWER_Y = 140 * SCALE;
+    const FLOWER_Y = 137 * SCALE;
     const angle = -37 + Math.random() * 80;
     setFlowers([
       ...flowers,
